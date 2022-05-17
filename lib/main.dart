@@ -3,6 +3,7 @@ import 'package:firebaselogin/screen/registration.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
+  /// initialize.  firebase
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(MyApp());
